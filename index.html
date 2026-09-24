@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Otieno - Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+    <a href="#top" class="mark">R.O<span>/01</span></a>
+    <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList">
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+  </nav>
+        </button>
+</header>
+
+<main id="top">
+
+    <! --Hero /Title Section -->
+
+    <section class="hero">
+        <div class="hero intro">
+            <p class="hero-intro">Welcome to my personal portfolio website. Explore my work, skills, and projects.</p>
+        </div>
+        <div class="hero-content">
+            <h1>Ryan<br>Otieno</h1>
+            <p class="hero-subtitle">A passionate software developer with a knack for creating innovative solutions.</p>
+                  <p class="lede">I design and build software the way an engineer drafts a structure &mdash; measured, load-tested, and made to hold up under real use. Currently studying Software Development and shipping small tools that solve real problems.</p>
+                  <div class="hero-actions"></div>
+                          <a href="#projects" class="btn btn-solid">View projects</a>
+                                  <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+    </div>
+
+     <div class="title-block">
+      <div class="tb-cell"><span>DRAWN BY </span>R. Otieno</div>
+      <div class="tb-cell"><span>SCALE</span>1 : 1</div>
+      <div class="tb-cell"><span>SHEET</span>01 / 04</div>
+      <div class="tb-cell"><span>STATUS</span>In progress</div>
+    </div>
+    </section>
+
+      <!-- ABOUT -->
+<section id="about" class="sheet">
+    <div class="sheet-head">
+      <span class="sheet-no">SHEET 02</span>
+      <h2>About</h2>
+    </div>
+    <div class="sheet-body about-grid">
+      <div class="panel">
+        <p>I'm a software development student who likes taking a problem apart until the moving pieces are obvious, then building the smallest thing that makes them work together. Most of what I build starts as a sketch on paper before it becomes a repository.</p>
+        <p>Outside of coursework, I spend time reading other people's code, contributing small fixes where I can, and rebuilding old class projects with better structure once I know more than I did the first time around.</p>
+      </div>
+      <ul class="specs">
+        <li><span>FOCUS</span>Web &amp; backend systems</li>
+        <li><span>EDUCATION</span>Software Development Bootcamp, in progress</li>
+        <li><span>BASE</span>Nairobi, Kenya</li>
+        <li><span>AVAILABLE FOR</span>Internships &amp; freelance work</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+   <section id="skills" class="sheet sheet-alt">
+    <div class="sheet-head">
+      <span class="sheet-no">SHEET 03</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="sheet-body">
+      <table class="bom">
+        <thead>
+          <tr><th>ITEM</th><th> CATEGORY</th><th> COMPONENT</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>01</td><td>Languages</td><td>JavaScript &middot; Python &middot; Java &middot; SQL</td></tr>
+          <tr><td>02</td><td>Frontend</td><td>HTML5 &middot; CSS3 &middot; React</td></tr>
+          <tr><td>03</td><td>Backend</td><td>Node.js &middot; Express &middot; REST APIs</td></tr>
+          <tr><td>04</td><td>Data</td><td>MySQL &middot; MongoDB</td></tr>
+          <tr><td>05</td><td>Tooling</td><td>Git &amp; GitHub &middot; VS Code &middot; Linux</td></tr>
+          <tr><td>06</td><td>Practice</td><td>Testing &middot; agile workflow &middot; code review</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+<!-- PROJECTS -->
+<section id="projects" class="sheet">
+  <div class="sheet-head">
+    <span class="sheet-no">SHEET 04</span>
+    <h2>Projects</h2>
+  </div>
+  <div class="sheet-body project-grid">
+
+    <article class="card">
+      <div class="card-top"><span>SHEET 04.1</span><span>STATUS: LIVE</span></div>
+      <h3>To-Do List App</h3>
+      <p>A task list where you can add, check off, and delete items, with everything saved in the browser so your list is still there when you come back.</p>
+      <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+      <div class="card-links"><a href="#">Live demo</a><a href="#">Source</a></div>
+    </article>
+
+    <article class="card">
+      <div class="card-top"><span>SHEET 04.2</span><span>STATUS: LIVE</span></div>
+      <h3>Weather Checker</h3>
+      <p>Type in a city and get the current temperature and conditions, pulled live from a public weather API and displayed on a simple, clean card.</p>
+      <ul class="tags"><li>JavaScript</li><li>Fetch API</li><li>CSS</li></ul>
+      <div class="card-links"><a href="#">Live demo</a><a href="#">Source</a></div>
+    </article>
+
+    <article class="card">
+      <div class="card-top"><span>SHEET 04.3</span><span>STATUS: IN PROGRESS</span></div>
+      <h3>Rock, Paper, Scissors</h3>
+      <p>A browser game against the computer with a running score, built to practice functions, conditionals, and updating the page without a reload.</p>
+      <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+      <div class="card-links"><a href="#">Repository</a></div>
+    </article>
+
+  </div>
+</section>
+<!-- CONTACT / FOOTER TITLE BLOCK -->
+  <footer id="contact" class="contact">
+    <div class="sheet-head">
+      <span class="sheet-no">SHEET 05</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <p class="contact-lede">Have a project, an internship, or just want to talk through an idea? I read every message.</p>
+      <div class="title-block title-block-footer">
+        <div class="tb-cell"><span>EMAIL</span><a href="mailto:otienoryan786@gmail.com">otienoryan786@gmail.com</a></div>
+        <div class="tb-cell"><span>GITHUB</span><a href="#">https://github.com/otienoryan786-lab</a></div>
+        <div class="tb-cell"><span>LINKEDIN</span><a href="#">https://www.linkedin.com/in/ryan-o-710b82302/</a></div>
+        <div class="tb-cell"><span>LOCATION</span>Nairobi, Kenya</div>
+      </div>
+    </div>
+    <p class="fine-print">&copy; 2026 Ryan Otieno &middot; Drawn, built, and maintained by hand.</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
